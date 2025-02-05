@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        GFG
+        <div id="ab" >
+            MERN
+            <div id="abc" onclick="alert('Full Stack Clicked')">
+                Full Stack Dev
+             </div>
+        </div>
+    </div>
+    <script>
+        const A = document.getElementById('ab');
+        //A.onclick=()=>{
+        //    alert("mtsbhsg");
+       // }
+       // A.onclick=()=>{
+        //    alert("abcde");
+        //}
+        //A.onclick=()=>{
+        //    alert("ritik");
+       // }
+        A.addEventListener('click',()=>{
+             alert("abcde");
+        } )
+        A.addEventListener('click',()=>{
+            alert("eeeee");
+        })
+        A.addEventListener('click',()=>{
+            alert("ritik");
+        })
+        
+    </script>
+    
+</body>
+</html> 
